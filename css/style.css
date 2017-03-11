@@ -1,0 +1,381 @@
+.clearfix::after,
+.main::after,
+.future_bg::after,
+.design_bg::after,
+.newdesign2::after,
+.otzivi::after,
+.newfuture::after,
+.contacts::after,
+.start::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+html {
+	width: 100%;
+}
+img {
+    width: 100%;
+}
+h1 {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 51px;
+	font-weight: 100;
+	margin-top: 250px;
+	color: #282828;
+}
+a {
+	text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.container{	
+	width: 950px;	
+}
+/*Head*/
+.main {
+	background: url(../img/head_bg.png) no-repeat;
+	background-size: cover;	
+}
+.h1{
+	padding: 12% 1% 2% 1%;
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+}
+.head-play{
+	margin: 0 auto;
+	width: 59px;
+}
+.port-btn {
+	text-align: center;
+	margin: 60px 0 60px 0;
+}
+
+.port-button {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 24px;
+	font-weight: 200;
+	text-transform: uppercase;
+	background: #ff6d6d;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.port-button a{
+	color: white;
+	padding: 14px 30px;
+}
+/*.port-button:hover {
+	cursor: pointer;
+}*/
+.head-text{
+	margin: 10px 0 20% 0; 
+	color: #282828;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 14px;
+}
+/*new design*/
+.design_bg {
+	background: url(../pic/bg2.png) no-repeat;
+	background-size: cover;	
+}
+
+.newdesign{
+	width: 60%;
+}
+.newdesign-text{
+	padding: 20% 0 2% 5%;
+	color: #ff6d6d;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 16px;
+}
+.newdesign-text2{
+	padding: 0 0 2% 5%;
+	color: #282828;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 40px;
+	
+}
+.newdesign-text3{
+	padding: 0 0 10% 5%;
+	color: #282828;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 16px;
+	
+}
+.newdesign_bg{
+	float: right;
+	width: 30%;
+}
+/*future*/
+.future_bg {
+	background: url(../pic/bg.png) no-repeat;
+	background-size: cover;	
+}
+.future-text {
+	padding: 15% 0 0 0;
+	margin: 0 auto;
+	text-align: center;
+	color: #ff6d6d;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 14px;
+}
+.future-text2 {
+	padding: 0% 0 0% 0;
+	margin: 0% auto;
+	text-align: center;
+	color: #282828;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 40px;
+}
+.future_container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container_future {
+	float: left;
+	width: 33%;
+	padding: 10% 0 10% 0;
+}
+.future_pics{
+	width: 67px;
+	height: 67px;
+	margin: 0 37%;
+	padding: 10% 0 5% 0;
+	text-align: center;
+}
+.future-text-conteiner {
+	text-align: center;
+	color: #282828;
+	font-family: 'Exo', sans-serif;
+	font-size: 22px; 
+}
+.future-text-conteiner2 {
+	padding: 5% 0 0 0;
+	text-align: center;
+	color: #282828;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px; 
+}
+.newdesign2 {
+	background: url(../pic/bg3.png) no-repeat;
+	background-size: cover;	
+}
+.newdesign2_text {
+	width: 50%;
+	float: right;
+}
+.otzivi {
+	background: url(../pic/otzivi.png) no-repeat;
+	background-size: cover;	
+	background-color: black;
+}
+.otzivi-text-conteiner {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Exo', sans-serif;
+	font-size: 22px; 
+}
+.otzivi-text-conteiner2 {
+	padding: 5% 0 0 0;
+	text-align: center;
+	color: #ff6d6d;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px; 
+}
+.otzivi-text-conteiner3 {
+	padding: 5% 5% 10% 5%;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+	font-family: 'Exo', sans-serif;
+	font-size: 16px; 
+}
+.partners {
+	width: 70%;
+	margin: 0% auto;
+	padding: 0% 0 5% 0;
+}
+.partners_logo {
+	width: 15%;
+	/*float: left;*/
+	display: inline-block;
+	padding: 5% 2% 5% 2%;
+	vertical-align: middle;
+}
+/*.logo_p1 {
+	width: 130px;
+	height: 66px;
+}*/
+/*new future*/
+.newfuture{
+	background-color: #f6f5f3;	
+}
+.newfuture-text {
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+.window {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+/*contacts*/
+.contacts {
+	background-color: #323969;
+}
+.contacts-text {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.contacts-text2 {
+	padding: 0 0 2% 5%;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 35px;
+	margin-bottom: 4%;
+	text-align: center;
+}
+.contact-text30 {
+	text-align: right;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	margin-bottom: 15px;
+	float: right;
+	margin-bottom: 4%;
+}
+.contact-text-30::after {
+	float: right;
+	content: "";
+	display: table;
+	clear: both;
+}
+.arrow {
+	width:56px;
+	height: 46px;
+	float: right;
+	}
+.cont-form {
+	width: 80%;
+	margin: 0 auto;
+}
+.contact-form-txt {
+	border: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 14px;
+	width: 23%;
+	float: left;
+	margin: 0 1%;
+	box-sizing: border-box;
+}
+/*.contact-form-txt:first-child {
+	margin: 0;
+	}*/
+.port-contact {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #ff6d6d;
+	padding: 14px 20px;
+	width: 23%;
+	float: left;
+	margin: 0 0 5% 2%;
+}
+.port-contact a{
+	color: white;
+	padding: 14px 40px;
+}
+.sign {
+	margin: 0 0 5% 0;
+	text-align: center;
+	color: #f6f5f3;
+}
+.sign a {
+	color: #f6f5f3;
+}
+.start {
+	background: url(../pic/bg4.png) no-repeat;
+	background-size: cover;	
+}
+.start-content {
+	width: 80%;
+	margin: 0 auto;
+}
+.start-ex {
+	float: left;
+	margin: 10% 0;
+	
+}
+.start-ex-top {
+	height: 30px;
+	margin-bottom: 11%;
+}
+.start-top-txt {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 27px;
+	font-family:  'Exo 2', sans-serif;
+	
+}
+.start-img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 41px;
+}
+.start-ex2 {
+	float: left;
+	width: 20%;
+	margin: 10% 2%;
+	line-height: 1.5;
+}
+.start-ex2 a {
+	color: black;
+}
+.start-form-txt {
+	border: 1px solid black;
+	background: transparent;
+	color: black;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 14px;
+	width: 70%;
+	float: left;
+	margin: 0 1%;
+	box-sizing: border-box;
+}
+.form-start {
+	padding: 20px auto;
+	line-height: 1.5;
+}
+.clic {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.pics {
+	width: 80%;
+	margin: 0% auto;
+	padding: 0% 0 10% 0;
+}
+.pics_item {	
+	width: 15px;
+	height: 100%;
+	display: inline-block;
+	padding: 2% 2% 2% 2%;
+	vertical-align: middle;
+}

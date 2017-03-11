@@ -1,0 +1,32 @@
+.clearfix::after,
+.main::after,
+.about::after,
+.portfolio::after,
+.team::after,
+.skills::after,
+.quote::after,
+.services::after,
+.pricing::after,
+.blog::after,
+.clients::after,
+.contact::after,
+.footer::after
+
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+html {
+	width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
