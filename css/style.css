@@ -2,7 +2,7 @@
 .main::after,
 .future_bg::after,
 .design_bg::after,
-.newdesign2::after,
+.newdesign-bottom::after,
 .otzivi::after,
 .newfuture::after,
 .contacts::after,
@@ -89,30 +89,30 @@ ul {
 	padding: 10% 0;
 }
 
-.newdesign{
+.newdesign {
 	width: 60%;
 }
-.newdesign-text{
+.newdesign-text {
 	padding: 0 0 2% 5%;
 	color: #ff6d6d;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 }
-.newdesign-text2{
+.newdesign-title {
 	padding: 0 0 2% 5%;
 	color: #282828;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 40px;
 	
 }
-.newdesign-text3{
+.newdesign-discription {
 	padding: 0 0 0 5%;
 	color: #282828;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
 	
 }
-.newdesign_bg{
+.newdesign_bg {
 	float: right;
 	width: 30%;
 }
@@ -129,7 +129,7 @@ ul {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 14px;
 }
-.future-text2 {
+.future-text-title {
 	padding: 0% 0 10% 0;
 	color: #282828;
 	font-size: 40px;
@@ -156,16 +156,16 @@ ul {
 	font-family: 'Exo', sans-serif;
 	font-size: 22px; 
 }
-.future-text-conteiner2 {
+.future-text-discription {
 	padding-top: 5%;
 	font-size: 16px; 
 }
-.newdesign2 {
+.newdesign-bottom {
 	background: url(../pic/bg3.png) no-repeat;
 	background-size: cover;
 	padding: 10% 0;
 }
-.newdesign2_text {
+.newdesign-bottom_text {
 	width: 50%;
 	float: right;
 }
@@ -230,7 +230,7 @@ ul {
 	margin: 0 auto;
 	text-align: center;
 }
-.contacts-text2 {
+.contacts-text-description {
 	padding: 0 0 2% 5%;
 	color: white;
 	font-family: 'Exo 2', sans-serif;
@@ -239,7 +239,7 @@ ul {
 	text-align: center;
 }
 .contact-trial-conteiner {
-	padding-right: 100px;
+	padding-right: 7%;
 }
 .contact-trial {
 	position: relative;
@@ -255,10 +255,6 @@ ul {
 	width:56px;
 	left: -20px;
 }
-
-.input-conteiner {
-	/*margin: 0 -5px;*/
-}
 .cont-form {
 	width: 80%;
 	margin: 0 auto;
@@ -272,8 +268,6 @@ ul {
 .input-box {
 	float: left;
 	width: 25%;
-	/*margin: 0 5px;
-	padding: 0 5px;*/
 }
 .input-box-inner {
 	padding: 0 5px;
@@ -289,13 +283,8 @@ ul {
 	text-transform: uppercase;
 	padding: 14px;
 	width: 100%;
-	/*float: left;
-	margin: 0 5%;*/
 	box-sizing: border-box;
 }
-/*.contact-form-txt:first-child {
-	margin: 0;
-	}*/
 .port-contact {
 	display: block;
 	text-align: center;
@@ -307,13 +296,7 @@ ul {
 	padding: 16.5px 0;
 	width: 100%;
 	color: white;
-	/*float: left;
-	margin: 0 0 10% 0%;*/
 }
-/*.port-contact a{
-	color: white;
-	padding: 14px 80px;
-}*/
 .sign {
 	margin: 0 0 5% 0;
 	text-align: center;
@@ -333,7 +316,6 @@ ul {
 .start-ex {
 	float: left;
 	margin: 10% 0;
-	
 }
 .start-ex-top {
 	height: 30px;
@@ -344,7 +326,6 @@ ul {
 	vertical-align: middle;
 	font-size: 27px;
 	font-family:  'Exo 2', sans-serif;
-	
 }
 .start-img {
 	display: inline-block;
