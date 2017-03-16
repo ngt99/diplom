@@ -301,9 +301,11 @@ ul {
 .sign a {
 	color: #f6f5f3;
 }
+/*Footer*/
 .start {
 	background: url(../pic/bg4.png) no-repeat;
-	background-size: cover;	
+	background-size: cover;
+	padding: 10% 0;
 }
 .start-content {
 	width: 80%;
@@ -311,7 +313,7 @@ ul {
 }
 .start-ex {
 	float: left;
-	margin: 10% 0;
+	margin-bottom: 10%;
 }
 .start-ex-top {
 	height: 30px;
@@ -328,13 +330,13 @@ ul {
 	vertical-align: middle;
 	width: 41px;
 }
-.start-ex2 {
+.start-list {
 	float: left;
 	width: 20%;
-	margin: 10% 2%;
+	margin: 0% 2%;
 	line-height: 1.5;
 }
-.start-ex2 a {
+.start-list a {
 	color: black;
 }
 .start-form-txt {
@@ -351,10 +353,6 @@ ul {
 	margin: 0 1%;
 	box-sizing: border-box;
 }
-.form-start {
-	padding: 20px auto;
-	line-height: 1.5;
-}
 .clic {
 	width: 50px;
 	height: 50px;
@@ -367,8 +365,8 @@ ul {
 }
 .pics_item {	
 	width: 15px;
-	height: 100%;
+	height: 15px;
 	display: inline-block;
-	padding: 2% 2% 2% 2%;
+	padding: 2%;
 	vertical-align: middle;
 }
